@@ -1,0 +1,13 @@
+Jun  8 19:38:57 RBN sudo: pam_unix(sudo:session): session closed for user root
+Jun  8 19:39:12 RBN sshd[796]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=robin
+Jun  8 19:39:14 RBN sshd[796]: Failed password for robin from 127.0.0.1 port 45956 ssh2
+Jun  8 19:39:19 RBN sshd[796]: Failed password for robin from 127.0.0.1 port 45956 ssh2
+Jun  8 19:39:23 RBN sshd[796]: Failed password for robin from 127.0.0.1 port 45956 ssh2
+Jun  8 19:39:23 RBN sshd[796]: Connection closed by authenticating user robin 127.0.0.1 port 45956 [preauth]
+Jun  8 19:39:23 RBN sshd[796]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=robin
+Jun  8 19:39:28 RBN sshd[799]: Accepted password for robin from 127.0.0.1 port 45958 ssh2
+Jun  8 19:39:28 RBN sshd[799]: pam_unix(sshd:session): session opened for user robin by (uid=0)
+Jun  8 19:39:30 RBN sshd[799]: syslogin_perform_logout: logout() returned an error
+Jun  8 19:39:30 RBN sshd[805]: Received disconnect from 127.0.0.1 port 45958:11: disconnected by user
+Jun  8 19:39:30 RBN sshd[805]: Disconnected from user robin 127.0.0.1 port 45958
+Jun  8 19:39:30 RBN sshd[799]: pam_unix(sshd:session): session closed for user robin
