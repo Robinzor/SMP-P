@@ -10,8 +10,10 @@ dt;prog;pid;ip;user;state
 2020-07-13 15:11:03.332880;sshd;584;192.168.179.3;root;finished
 2020-07-13 14:09:06.332880;sshd;140;192.168.179.9;frans;failed
 
-# login success
+# login started
 2020-07-13 14:10:02.332880;sshd;584;192.168.179.3;root;started
+
+# login success
 2020-07-13 15:11:03.332880;sshd;584;192.168.179.3;root;finished
 
 # login failed
@@ -27,15 +29,10 @@ findCulprit
 datetime
 from opgt import readLog
 
-
 # toepassingen
 - timedelta
 - read file (with as fp)
 - read ip-adres
-
-unknown check 
-
-
-
+- unknown check 
 
 

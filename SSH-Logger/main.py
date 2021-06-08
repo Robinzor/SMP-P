@@ -8,10 +8,18 @@
 ##################################################
 
 import time
+import csv
 
-# Starting time
-start = time.time()
+# CSV DictReader
+def readLog(fname):
+    with open('system.log', 'r') as fp:
+        lst = list(csv.DictReader(fp, delimiter=';'))
+        # Get one item
+        print(lst[0]["pid"])
+    return lst
 
-# Ending time
-end = time.time()
+readLog('system.log')
+
+
+
 
